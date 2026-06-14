@@ -117,16 +117,6 @@ N 960 -510 1000 -510 {
 lab=gc}
 N 870 -510 900 -510 {
 lab=comp}
-N 1040 -510 1060 -510 {
-lab=out}
-N 1040 -540 1060 -540 {
-lab=out}
-N 1060 -540 1060 -510 {
-lab=out}
-N 1040 -480 1060 -480 {
-lab=out}
-N 1060 -510 1060 -480 {
-lab=out}
 N 1060 -510 1130 -510 {
 lab=out}
 N 1410 -350 1430 -350 {
@@ -453,20 +443,6 @@ model=ppolyf_u_1k_6p0
 spiceprefix=X
 m=1
 }
-C {gf180_primitives/pfet_06v0.sym} 1020 -510 0 0 {name=MCC
-L=8u
-W=8u
-nf=1
-m=28
-ad="'int((nf+1)/2) * W/nf * 0.18u'"
-pd="'2*int((nf+1)/2) * (W/nf + 0.18u)'"
-as="'int((nf+2)/2) * W/nf * 0.18u'"
-ps="'2*int((nf+2)/2) * (W/nf + 0.18u)'"
-nrd="'0.18u / W'" nrs="'0.18u / W'"
-sa=0 sb=0 sd=0
-model=pfet_06v0
-spiceprefix=X
-}
 C {devices/lab_wire.sym} 930 -490 1 1 {name=l19 sig_type=std_logic lab=vss}
 C {devices/ngspice_get_expr.sym} 590 -400 2 0 {name=r36 node="vov=[to_eng [expr \{ [ ngspice::get_node vov_xm1 ]\} ] ]"
 descr=""
@@ -507,3 +483,6 @@ C {devices/lab_wire.sym} 1430 -450 0 1 {name=l22 sig_type=std_logic lab=vdd
 }
 C {devices/lab_wire.sym} 1000 -510 0 0 {name=l23 sig_type=std_logic lab=gc
 }
+C {devices/capa.sym} 1030 -510 3 0 {name=C1
+m=1
+value=2.44p}
