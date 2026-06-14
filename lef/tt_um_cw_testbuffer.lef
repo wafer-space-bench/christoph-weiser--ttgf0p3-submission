@@ -65,7 +65,7 @@ MACRO tt_um_cw_testbuffer
     ANTENNAGATEAREA 64.000000 ;
     PORT
       LAYER Metal4 ;
-        RECT 307.900 0.000 310.900 26.920 ;
+        RECT 307.900 0.000 310.900 1.000 ;
     END
   END ua[0]
   PIN ua[1]
@@ -75,7 +75,7 @@ MACRO tt_um_cw_testbuffer
     ANTENNADIFFAREA 14.080000 ;
     PORT
       LAYER Metal4 ;
-        RECT 264.220 0.000 267.220 18.920 ;
+        RECT 264.220 0.000 267.220 1.000 ;
     END
   END ua[1]
   PIN ua[2]
@@ -85,7 +85,7 @@ MACRO tt_um_cw_testbuffer
     ANTENNADIFFAREA 112.320000 ;
     PORT
       LAYER Metal4 ;
-        RECT 220.540 0.000 223.540 10.970 ;
+        RECT 220.540 0.000 223.540 1.000 ;
     END
   END ua[2]
   PIN ua[3]
