@@ -1,0 +1,26 @@
+source:
+  url: https://github.com/christoph-weiser/ttgf0p3-submission
+  original_url: null
+  kind: fork
+  why: GitHub fork of the upstream repository
+  licence: null
+  upstream_default_branch: main
+tapeouts:
+- org: tinytapeout
+  run: ttgf0p3
+  slot: tt_um_cw_testbuffer
+  project: TT GF180mcuD Testbuffer
+  size: 1x2
+  kind: analog
+  commit: 72b19621d29c8a30515b8211cb0a1d873a336330
+  commit_source: commit from the shuttle repo's projects/<name>/commit_id.json
+  tag: tinytapeout/ttgf0p3/tt_um_cw_testbuffer
+  branch: tapeout/tinytapeout/ttgf0p3/tt_um_cw_testbuffer
+  page: https://app.tinytapeout.com/shuttles/ttgf0p3
+generated: '2026-10-17T23:25:17Z'
+tooling: https://github.com/wafer-space/wafer.space-bench
+index: https://wafer-space-bench.github.io
+branches:
+- about
+- tapeout/tinytapeout/ttgf0p3/tt_um_cw_testbuffer
+- upstream/main
